@@ -1,0 +1,16 @@
+C:\Users\John Carlo Carbonel\source\repos\SPUP\SPUP\obj\Debug\SPUP.csprojAssemblyReference.cache
+C:\Users\John Carlo Carbonel\source\repos\SPUP\SPUP\obj\Debug\SPUP.exe.config
+C:\Users\John Carlo Carbonel\source\repos\SPUP\SPUP\obj\Debug\SPUP.about_Form.resources
+C:\Users\John Carlo Carbonel\source\repos\SPUP\SPUP\obj\Debug\SPUP.Main.resources
+C:\Users\John Carlo Carbonel\source\repos\SPUP\SPUP\obj\Debug\SPUP.Settings.resources
+C:\Users\John Carlo Carbonel\source\repos\SPUP\SPUP\obj\Debug\SPUP.StudentEntry.resources
+C:\Users\John Carlo Carbonel\source\repos\SPUP\SPUP\obj\Debug\SPUP.csproj.GenerateResource.cache
+C:\Users\John Carlo Carbonel\source\repos\SPUP\SPUP\bin\Debug\SPUP.exe.config
+C:\Users\John Carlo Carbonel\source\repos\SPUP\SPUP\bin\Debug\SPUP.exe
+C:\Users\John Carlo Carbonel\source\repos\SPUP\SPUP\bin\Debug\SPUP.pdb
+C:\Users\John Carlo Carbonel\source\repos\SPUP\SPUP\bin\Debug\System.Threading.Tasks.Dataflow.dll
+C:\Users\John Carlo Carbonel\source\repos\SPUP\SPUP\obj\Debug\SPUP.Properties.Resources.resources
+C:\Users\John Carlo Carbonel\source\repos\SPUP\SPUP\obj\Debug\SPUP.csproj.CoreCompileInputs.cache
+C:\Users\John Carlo Carbonel\source\repos\SPUP\SPUP\obj\Debug\SPUP.csproj.CopyComplete
+C:\Users\John Carlo Carbonel\source\repos\SPUP\SPUP\obj\Debug\SPUP.exe
+C:\Users\John Carlo Carbonel\source\repos\SPUP\SPUP\obj\Debug\SPUP.pdb

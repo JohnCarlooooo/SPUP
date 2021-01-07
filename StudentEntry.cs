@@ -80,7 +80,7 @@ namespace SPUP
                 //Get Current Time, Set SqlQuery to Select Data For Today And Execute Said Query
                 DateTime Today = DateTime.Now;
                 string dtoday = Today.ToString("yyyy-MM-dd H:mm:ss");
-                string QueryToday = $"INSERT INTO Log (ID, Temperature, Purpose, TimeIn) Values ({SearchTable.Rows[0]["ID"]}, '{Temperature_tb.Text}', '{Purpose_tb.Text}', '{dtoday}')";
+                string QueryToday = $"INSERT INTO Log (ID, Temperature, Purpose, TimeIn) Values ({SearchTable.Rows[0]["ID"]}, '{Temperature_tb.Text}', 'Student', '{dtoday}')";
                 MySqlConnection con = new MySqlConnection(connectionString);
                 con.Open();
                 MySqlCommand command = new MySqlCommand(QueryToday, con);
@@ -115,7 +115,6 @@ namespace SPUP
         private bool Validation()
         {
             int numErrors = 0;
-            Purpose_tb.BackColor = Color.White;
             Temperature_tb.BackColor = Color.White;
 
             if (Temperature_tb.Text.Length == 1)
@@ -165,12 +164,6 @@ namespace SPUP
                 numErrors++;
                 Temperature_tb.BackColor = System.Drawing.ColorTranslator.FromHtml("#ff7a7a");
             }
-                
-            if (Purpose_tb.Text == "")
-            {
-                numErrors++;
-                Purpose_tb.BackColor = System.Drawing.ColorTranslator.FromHtml("#ff7a7a");
-            }
 
             if (numErrors != 0)
             {
@@ -178,5 +171,6 @@ namespace SPUP
             }
             else return true;
         }
+
     }
 }
